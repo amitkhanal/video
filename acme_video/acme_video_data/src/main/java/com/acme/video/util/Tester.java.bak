@@ -1,0 +1,19 @@
+package com.netflix.demo.video.util;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
+
+public class Tester {
+
+	public static void main(String[] args) throws IOException{
+		/*String file = "/tmp/test.txt";
+		Path path = Paths.get(file);
+		Files.write(path,new String("Hello test 4\n").getBytes(),StandardOpenOption.CREATE,StandardOpenOption.APPEND );*/
+		Path source = Paths.get("/tmp/test.txt");
+		Files.move(source, Paths.get("/tmp/log/").resolve(source.getFileName()));
+	}
+	
+}
