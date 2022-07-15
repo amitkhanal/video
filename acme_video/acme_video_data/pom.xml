@@ -22,7 +22,7 @@
 	<url>http://maven.apache.org</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<aws.s3.version>1.11.160</aws.s3.version>
+		<aws.s3.version>1.12.261</aws.s3.version>
 		<junit.version>4.12</junit.version>
 		<spring.web.version>4.3.9.RELEASE</spring.web.version>
 		<spring.boot.starter.version>1.5.4.RELEASE</spring.boot.starter.version>
